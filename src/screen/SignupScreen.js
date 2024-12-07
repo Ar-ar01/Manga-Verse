@@ -64,7 +64,7 @@ const SignupScreen = () => {
         />
       </TouchableOpacity>
       <View style={styles.textContainer}>
-        <Text style={styles.headingText}>Register here!</Text>
+        <Text style={styles.headingText}>Let's Sign Up!</Text>
       </View>
       {/* form  */}
       <View style={styles.formContainer}>

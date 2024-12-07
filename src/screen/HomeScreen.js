@@ -18,10 +18,10 @@ const HomeScreen = () => {
     <View style={styles.container}>
       <Image source={require("../assets/logo.png")} style={styles.logo} />
       <Image source={require("../assets/man.png")} style={styles.bannerImage} />
-      <Text style={styles.title}>Book Store.</Text>
+      <Text style={styles.title}>Book Shop.</Text>
       <Text style={styles.subTitle}>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore 
+      A bookstore is a shop where a variety of books are sold, 
+      catering to diverse interests, ages, and genres.
       </Text>
       <View style={styles.buttonContainer}>
         <TouchableOpacity
@@ -58,8 +58,8 @@ const styles = StyleSheet.create({
     marginVertical: 45,
   },
   bannerImage: {
-    height: 250,
-    width: 231,
+    height: 300,
+    width: 400,
   },
   title: {
     fontSize: 40,
@@ -67,7 +67,6 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20,
     textAlign: "center",
     color: colors.primary,
-    marginTop: 40,
   },
   subTitle: {
     fontSize: 18,

@@ -26,7 +26,7 @@ const LoginScreen = () => {
   };
 
   const handleSignup = () => {
-    navigation.navigate("");
+    navigation.navigate("SIGNUP");
   };
 
   const handleLogin = async () => {
@@ -40,9 +40,9 @@ const LoginScreen = () => {
         await signInWithEmailAndPassword(auth, input, password);
         console.log("Login successful with:", input);
         // Navigate to Home screen after successful login
-        navigation.navigate("CART");
+        navigation.navigate("DetailsScreen");
       } catch (error) {
-        alert(error.message); // Display Firebase error
+        alert("The Account does not exist. Please Sign up!"); // Display Firebase error
       }
     }
   };
