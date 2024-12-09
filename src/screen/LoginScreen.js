@@ -22,7 +22,7 @@ const LoginScreen = () => {
   const [password, setPassword] = useState(""); // Holds password
 
   const handleGoBack = () => {
-    navigation.goBack();
+    navigation.goBack("HOME");
   };
 
   const handleSignup = () => {

@@ -4,7 +4,7 @@ import { colors } from "../utils/colors";
 import { fonts } from "../utils/fonts";
 import { useNavigation } from "@react-navigation/native";
 
-const HomeScreen = () => {
+const HomesScreen = () => {
   const navigation = useNavigation();
 
   const handleLogin = () => {
@@ -18,10 +18,10 @@ const HomeScreen = () => {
     <View style={styles.container}>
       <Image source={require("../assets/logo.png")} style={styles.logo} />
       <Image source={require("../assets/man.png")} style={styles.bannerImage} />
-      <Text style={styles.title}>Book Shop.</Text>
+      <Text style={styles.title}>Manga Verse.</Text>
       <Text style={styles.subTitle}>
-      A bookstore is a shop where a variety of books are sold, 
-      catering to diverse interests, ages, and genres.
+      
+Manga is Japanese comic art known for its unique storytelling, diverse genres, and captivating illustrations.
       </Text>
       <View style={styles.buttonContainer}>
         <TouchableOpacity
@@ -44,7 +44,7 @@ const HomeScreen = () => {
   );
 };
 
-export default HomeScreen;
+export default HomesScreen;
 
 const styles = StyleSheet.create({
   container: {
